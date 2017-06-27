@@ -1,0 +1,633 @@
+body {
+	background: #f9f9f9;
+}
+#SkillBox {
+	font-size: 20px;
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 1px solid #cdcdcd;
+	padding: 10px;
+	border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	-ms-border-radius:20px;
+	-moz-border-radius:20px;
+}
+#SkillBox img {
+	width: 20%;
+	height: 10%;
+	margin: auto 35%;
+	padding: 10px;
+}
+.SkillBar {
+	width: 100%;
+	height: 45px;
+	position: relative;
+	background: rgba(108, 122, 137, 1);
+	margin: 20px auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#Skill-R {
+	animation: Animate-R 4s;
+	-webkit-animation: Animate-R 4s;
+	-moz-animation: Animate-R 4s;
+	-o-animation: Animate-R 4s;
+	width: 85%;
+	height: 45px;
+	position: absolute;
+	background-color: #F9690E;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-R {
+a from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-webkit-keyframes Animate-R {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-moz-keyframes Animate-R {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-o-keyframes Animate-R {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+#Skill-DS {
+	animation: Animate-DS 5s;
+	-webkit-animation: Animate-DS 5s;
+	-moz-animation: Animate-DS 5s;
+	-o-animation: Animate-DS 5s;
+	width: 80%;
+	height: 45px;
+	position: absolute;
+	background-color: #66CC99;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-DS {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-webkit-keyframes Animate-DS {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-moz-keyframes Animate-DS {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-o-keyframes Animate-DS {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+#Skill-Stats {
+	animation: Animate-Stats 5s;
+	-webkit-animation: Animate-Stats 5s;
+	-moz-animation: Animate-Stats 5s;
+	-o-animation: Animate-Stats 5s;
+	width: 60%;
+	height: 45px;
+	position: absolute;
+	background-color: #D2527F;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Stats {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-webkit-keyframes Animate-Stats {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-moz-keyframes Animate-Stats {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-o-keyframes Animate-Stats {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+#Skill-ML {
+	animation: Animate-ML 4s;
+	-webkit-animation: Animate-ML 4s;
+	-moz-animation: Animate-ML 4s;
+	-o-animation: Animate-ML 4s;
+	width: 65%;
+	height: 45px;
+	position: absolute;
+	background-color: #EF4836;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-ML {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-webkit-keyframes Animate-ML {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-moz-keyframes Animate-ML {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-o-keyframes Animate-ML {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+#Skill-DV {
+	animation: Animate-DV 4s;
+	-webkit-animation: Animate-DV 4s;
+	-moz-animation: Animate-DV 4s;
+	-o-animation: Animate-DV 4s;
+	width: 50%;
+	height: 45px;
+	position: absolute;
+	background-color: #446CB3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-DV {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-webkit-keyframes Animate-DV {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-moz-keyframes Animate-DV {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-o-keyframes Animate-DV {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+#Skill-FE {
+	animation: Animate-FE 4s;
+	-webkit-animation: Animate-FE 4s;
+	-moz-animation: Animate-FE 4s;
+	-o-animation: Animate-FE 4s;
+	width: 75%;
+	height: 45px;
+	position: absolute;
+	background-color: #674172;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-FE {
+ from {
+ width: 10px;
+}
+to {
+	width: 75%
+}
+}
+@-webkit-keyframes Animate-FE {
+ from {
+ width: 10px;
+}
+to {
+	width: 75%
+}
+}
+@-moz-keyframes Animate-FE {
+ from {
+ width: 10px;
+}
+to {
+	width: 75%
+}
+}
+@-o-keyframes Animate-FE {
+ from {
+ width: 10px;
+}
+to {
+	width: 75%
+}
+}
+#Skill-azure {
+	animation: Animate-azure 4s;
+	-webkit-animation: Animate-azure 4s;
+	-moz-animation: Animate-azure 4s;
+	-o-animation: Animate-azure 4s;
+	width: 85%;
+	height: 45px;
+	position: absolute;
+	background-color: #52B3D9;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-azure {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-webkit-keyframes Animate-azure {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-moz-keyframes Animate-azure {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-o-keyframes Animate-azure {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+#Skill-pbi {
+	animation: Animate-pbi 4s;
+	-webkit-animation: Animate-pbi 4s;
+	-moz-animation: Animate-pbi 4s;
+	-o-animation: Animate-pbi 4s;
+	width: 65%;
+	height: 45px;
+	position: absolute;
+	background-color: #F7CA18;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-pbi {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-webkit-keyframes Animate-pbi {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-moz-keyframes Animate-pbi {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-o-keyframes Animate-pbi {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+#Skill-pm {
+	animation: Animate-pm 4s;
+	-webkit-animation: Animate-pm 4s;
+	-moz-animation: Animate-pm 4s;
+	-o-animation: Animate-pm 4s;
+	width: 99%;
+	height: 45px;
+	position: absolute;
+	background-color: #1BA39C;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-pm {
+ from {
+ width: 10px;
+}
+to {
+	width: 99%
+}
+}
+@-webkit-keyframes Animate-pm {
+ from {
+ width: 10px;
+}
+to {
+	width: 99%
+}
+}
+@-moz-keyframes Animate-pm {
+ from {
+ width: 10px;
+}
+to {
+	width: 99%
+}
+}
+@-o-keyframes Animate-pm {
+ from {
+ width: 10px;
+}
+to {
+	width: 99%
+}
+}
+#Skill-agile {
+	animation: Animate-agile 4s;
+	-webkit-animation: Animate-agile 4s;
+	-moz-animation: Animate-agile 4s;
+	-o-animation: Animate-agile 4s;
+	width: 95%;
+	height: 45px;
+	position: absolute;
+	background-color: #F39C12;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-agile {
+ from {
+ width: 10px;
+}
+to {
+	width: 95%
+}
+}
+@-webkit-keyframes Animate-agile {
+ from {
+ width: 10px;
+}
+to {
+	width: 95%
+}
+}
+@-moz-keyframes Animate-agile {
+ from {
+ width: 10px;
+}
+to {
+	width: 95%
+}
+}
+@-o-keyframes Animate-agile {
+ from {
+ width: 10px;
+}
+to {
+	width: 95%
+}
+}
+.Skill-Area {
+	z-index: 1;
+	float: left;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-shadow: none;
+	color: #fff;
+	font-family: Lato-Regular, sans-serif;
+	font-size: 18px;
+}
+.PercentText {
+	z-index: 3;
+	position: relative;
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;
+	text-shadow: none;
+	color: #fff;
+	font-family: Lato-Regular, sans-serif;
+	font-size: 18px;
+}
+/* Pure CSS3 jQuery-Like fadeIn
+---------------------------------------------------- */
+.fadeIn {
+	/* CSS needed for animation
+	---------------------------------------------------- */
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	-o-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-3s {
+	-webkit-animation-duration:3s;
+	-moz-animation-duration:3s;
+	-o-animation-duration:3s;
+	animation-duration:3s;
+}
+.fadeIn-5s {
+	-webkit-animation-duration:5s;
+	-moz-animation-duration:5s;
+	-o-animation-duration:5s;
+	animation-duration:5s;
+}
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-3s {
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	-o-animation-delay:3s;
+	animation-delay:3s;
+}
+.fadeIn-Delay-5s {
+	-webkit-animation-delay:5s;
+	-moz-animation-delay:5s;
+	-o-animation-delay:5s;
+	animation-delay:5s;
+}
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@-moz-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@-o-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+ @media only screen and (max-width: 40em) {
+.responsive-percent {
+ margin-right: -45px !important;
+}
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+.responsive-percent {
+ margin-right: -45px !important;
+}
+}
+
+.footer-base {
+	background:#343433;
+	color:#fff;
+	width: 100%;
+	padding:20px 0 50px 0
+}
+.footer-base a {
+	color:#fff;
+	text-decoration:none
+}
+.footer-base a:hover {
+	color:#7ea4f5
+}
+
+
+.mrgn-10-top {
+	margin-top:10px
+}
+.mrgn-20-top {
+	margin-top:20px
+}
+.mrgn-30-top {
+	margin-top:30px
+}
+.mrgn-40-top {
+	margin-top:40px
+}
+.mrgn-10-bottom {
+	margin-bottom:10px
+}
+.mrgn-20-bottom {
+	margin-bottom:20px
+}
+.mrgn-30-bottom {
+	margin-bottom:30px
+}
+.mrgn-40-bottom {
+	margin-bottom:40px
+}

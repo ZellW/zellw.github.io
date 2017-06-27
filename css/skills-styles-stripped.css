@@ -1,0 +1,593 @@
+body {
+	background: #f9f9f9;
+}
+#SkillBox {
+	font-size: 20px;
+	width: 95%;
+	height: auto;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 1px solid #cdcdcd;
+	padding: 10px;
+	border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	-ms-border-radius:20px;
+	-moz-border-radius:20px;
+}
+#SkillBox img {
+	width: 20%;
+	height: 10%;
+	margin: auto 35%;
+	padding: 10px;
+}
+.SkillBar-stripes {
+	width: 100%;
+	height: 45px;
+	position: relative;
+	background: rgba(17, 17, 17, 0.1);
+	margin: 20px auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#Skill-stripes-RF {
+	width: 80%;
+	animation: Animate-RF 4s;
+	-webkit-animation: Animate-RF 4s;
+	-moz-animation: Animate-RF 4s;
+	-o-animation: Animate-RF 4s;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #F9690E, #F9690E 10px, #f28b4b 10px, #f28b4b 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-RF {
+a from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-webkit-keyframes Animate-RF {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-moz-keyframes Animate-RF {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-o-keyframes Animate-RF {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+#Skill-stripes-cluster {
+	animation: Animate-cluster 5s;
+	-webkit-animation: Animate-cluster 5s;
+	-moz-animation: Animate-cluster 5s;
+	-o-animation: Animate-cluster 5s;
+	width: 85%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #51ad7f, #51ad7f 10px, #66CC99 10px, #66CC99 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-cluster {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-webkit-keyframes Animate-cluster {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-moz-keyframes Animate-cluster {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-o-keyframes Animate-cluster {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+#Skill-stripes-svm {
+	animation: Animate-svm 5s;
+	-webkit-animation: Animate-svm 5s;
+	-moz-animation: Animate-svm 5s;
+	-o-animation: Animate-svm 5s;
+	width: 70%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #D2527F, #D2527F 10px, #b34169 10px, #b34169 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-svm {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-webkit-keyframes Animate-svm {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-moz-keyframes Animate-svm {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-o-keyframes Animate-svm {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+#Skill-stripes-lg {
+	animation: Animate-lg 4s;
+	-webkit-animation: Animate-lg 4s;
+	-moz-animation: Animate-lg 4s;
+	-o-animation: Animate-lg 4s;
+	width: 85%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #EF4836, #EF4836 10px, #a62b1e 10px, #a62b1e 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-lg {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-webkit-keyframes Animate-lg {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-moz-keyframes Animate-lg {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+@-o-keyframes Animate-lg {
+ from {
+ width: 10px;
+}
+to {
+	width: 85%
+}
+}
+#Skill-stripes-neural {
+	animation: Animate-neural 4s;
+	-webkit-animation: Animate-neural 4s;
+	-moz-animation: Animate-neural 4s;
+	-o-animation: Animate-neural 4s;
+	width: 60%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #446CB3, #446CB3 10px, #31528d 10px, #31528d 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-neural {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-webkit-keyframes Animate-neural {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-moz-keyframes Animate-neural {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-o-keyframes Animate-neural {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+#Skill-stripes-glm {
+	animation: Animate-glm 4s;
+	-webkit-animation: Animate-glm 4s;
+	-moz-animation: Animate-glm 4s;
+	-o-animation: Animate-glm 4s;
+	width: 80%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #674172, #674172 10px, #865b92 10px, #865b92 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-glm {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-webkit-keyframes Animate-glm {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-moz-keyframes Animate-glm {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-o-keyframes Animate-glm {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+#Skill-stripes-nb {
+	animation: Animate-nb 4s;
+	-webkit-animation: Animate-nb 4s;
+	-moz-animation: Animate-nb 4s;
+	-o-animation: Animate-nb 4s;
+	width: 50%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #52B3D9, #52B3D9 10px, #4295b6 10px, #4295b6 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-nb {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-webkit-keyframes Animate-nb {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-moz-keyframes Animate-nb {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-o-keyframes Animate-nb {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+#Skill-stripes-lgbm {
+	animation: Animate-lgbm 4s;
+	-webkit-animation: Animate-lgbm 4s;
+	-moz-animation: Animate-lgbm 4s;
+	-o-animation: Animate-lgbm 4s;
+	width: 60%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #F7CA18, #F7CA18 10px, #cfab1c 10px, #cfab1c 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-lgbm {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-webkit-keyframes Animate-lgbm {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-moz-keyframes Animate-lgbm {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-o-keyframes Animate-lgbm {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+#Skill-stripes-SQL {
+	animation: Animate-SQL 4s;
+	-webkit-animation: Animate-SQL 4s;
+	-moz-animation: Animate-SQL 4s;
+	-o-animation: Animate-SQL 4s;
+	width: 80%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #1BA39C, #1BA39C 10px, #14807a 10px, #14807a 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-webkit-keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-moz-keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-o-keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+#Skill-stripes-VBNET {
+	animation: Animate-VBNET 4s;
+	-webkit-animation: Animate-VBNET 4s;
+	-moz-animation: Animate-VBNET 4s;
+	-o-animation: Animate-VBNET 4s;
+	width: 35%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #F39C12, #F39C12 10px, #c3821b 10px, #c3821b 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+@-webkit-keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+@-moz-keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+@-o-keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+.Skill-Area {
+	z-index: 1;
+	float: left;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-shadow: none;
+	color: #fff;
+	font-family: Lato-Regular, sans-serif;
+	font-size: 18px;
+}
+.PercentText {
+	z-index: 3;
+	position: relative;
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;
+	text-shadow: none;
+	color: #fff;
+	font-family: Lato-Regular, sans-serif;
+	font-size: 18px;
+}
+/* Pure CSS3 jQuery-Like fadeIn
+---------------------------------------------------- */
+.fadeIn {
+	/* CSS needed for animation
+	---------------------------------------------------- */
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	-o-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-3s {
+	-webkit-animation-duration:3s;
+	-moz-animation-duration:3s;
+	-o-animation-duration:3s;
+	animation-duration:3s;
+}
+.fadeIn-5s {
+	-webkit-animation-duration:5s;
+	-moz-animation-duration:5s;
+	-o-animation-duration:5s;
+	animation-duration:5s;
+}
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-3s {
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	-o-animation-delay:3s;
+	animation-delay:3s;
+}
+.fadeIn-Delay-5s {
+	-webkit-animation-delay:5s;
+	-moz-animation-delay:5s;
+	-o-animation-delay:5s;
+	animation-delay:5s;
+}
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@-moz-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@-o-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+ @media only screen and (max-width: 40em) {
+.responsive-percent {
+ margin-right: -45px !important;
+}
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+.responsive-percent {
+ margin-right: -45px !important;
+}
+}
