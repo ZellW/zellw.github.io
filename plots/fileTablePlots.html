@@ -4,7 +4,7 @@ Put notes here
 -->
 <html>
 	<head>
-		<title>File List</title>
+		<title>Plot List</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -24,10 +24,27 @@ Put notes here
 								<a href="../index.html"><img src="../images/400dpiLogoCropped10.jpg" align="right" alt="Missing R Logo"></a> 
 							</header>
 
+						<!-- Banner -->
+						<section id="banner">
+							<div class="content">
+								<header>
+									<h1>R Visualizations - You Will Be Amazed!</h1>
+									<p>Data Story Telling Using Intuitive and Creative Visualizations</p>
+								</header>
+								<p>With ever increasing volume of data, it is impossible to tell stories without visualizations. Data visualization is an art of how to turn numbers 
+									into useful knowledge.  R Programming lets you learn this art by offering a set of inbuilt functions and libraries to build visualizations and present data. </p>
+								<p>Not all of the examples included are original.  There is such a varierty of potential ways to tell a story using data, it is impossible 
+									for one person to introduce you to all the possibilities - but I will try!  I often get side-tracked pursuing a graphic that catches my eye.  I reproduce 
+									some of them below.  When there is something really creative that I have not been able to prelicate in R, I provide the link for you.</p>
+								<p>Be sure to look at this often-referenced <a href="../images/chartSelections.jpg" target="_blank">chart selection graphic</a>.  (&copy; 2006 A. Abela - a.v.abela@gmail.com)  
+								It is very easy to start developing a plot without carefully considering <i>which plot style to use <strong>first</strong></i>.</p>
+							</div>
+						</section>
+
 							<!-- Section -->
 							<section>
 								<!-- Table -->
-								<h3>Visualizations File List - Examples</h3>
+								<h3><font color=#4294CE>Visualizations File List - Examples</font></h3>
 								<div class="table-wrapper">
 									<table>
 										<thead>
@@ -39,15 +56,15 @@ Put notes here
 										</thead>
 										<tbody>
                                             <tr>
-												<td colspan="3"><strong>ggplot2 - The Graphics Package You Must Know</strong></td>
+												<td colspan="3"><strong><i><font color=#4294CE>ggplot2 - The Graphics Package You Must Know</font></i></strong></td>
 											</tr>
                         					<tr>
-												<td>Coming Soon</td>
-												<td></td>
-												<td></td>
+												<td><a href="tidyrggplot2explained.html" target="_blank">tidyrggplot2explained.html</a></td>
+												<td>An introduction to tidying your data using tydr and using ggplot</td>
+												<td>7/2/2017</td>
 											</tr>
                                             <tr>
-												<td colspan="3"><strong>R Mapping Examples</strong></td>
+												<td colspan="3"><strong><i><font color=#4294CE>R Mapping Examples</font></i></strong></td>
 											</tr>
 											<tr>
 												<td><a href="USLifeExpectancy.html" target="_blank">USLifeExpectancy.html</a></td>
@@ -55,21 +72,42 @@ Put notes here
 												<td>6/30/2017</td>
 											</tr>
                                                                                         <tr>
-												<td colspan="3"><strong>Interactive Data Story Telling - Shiny</strong></td>
+												<td colspan="3"><strong><i><font color=#4294CE>Interactive Data Story Telling - Shiny</font></i></strong></td>
 											</tr>
 											<tr>
-												<td>Coming Soon</td>
-												<td></td>
-												<td></td>
+												<td><a href="https://zellw.shinyapps.io/shiny2/" target="_blank">My first Shiny application</a></td>
+												<td>Shiny apps are hosted on shared servers on shinyapps.io.  It may take a minute or two for the application to wake from sleeping.  
+													This application is based on Census data.</td>
+												<td>7/2/2017</td>
+											</tr>
+											<tr>
+												<td><a href="https://zellw.shinyapps.io/myPredictor/" target="_blank">My Shiny App Leveraging NLP</a></td>
+												<td>This application was part of my final project featuring Natural Language Processing is support of the Coursera - 
+													<a href="https://www.coursera.org/specializations/jhu-data-science/">Johns Hopkins Course Data Science Specialization</a>.  
+													Remember, Shiny apps are hosted on shared servers on shinyapps.io.  It may take a minute or two for the application to wake from sleeping. </td>
+												<td>7/2/2017</td>
 											</tr>
                                              <tr>
-												<td colspan="3"><strong>Other Visualizations</strong></td>
+												<td colspan="3"><strong><i><font color=#4294CE>Other Visualizations</font></i></strong></td>
 											</tr>
 											<tr>
 												<td>Coming Soon</td>
 												<td></td>
 												<td></td>
+											</tr>									
+                                            <tr>
+												<td colspan="3"><strong><i><font color=#4294CE>External Visualization Gallery Links</font></i></strong></td>
 											</tr>
+											<tr>
+												<td><a href="http://www.r-graph-gallery.com/all-graphs/" target="_blank">The R Graph Gallery</a></td>
+												<td><a href="https://plot.ly/ggplot2/" target="_blank">Plotly ggplot2 Library</a></td>
+												<td><a href="https://www.showmeshiny.com/" target="_blank">Show me Shiny!</a></td>
+											</tr>
+											<tr>
+												<td><a href="https://www.rstudio.com/products/shiny/shiny-user-showcase/" target="_blank">Shiny User Showcase</a></td>
+												<td><a href="http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html" target="_blank">Top 50 ggplot2 Visualizations y</a></td>
+												<td><a href="http://www.ggplot2-exts.org/gallery/" target="_blank">ggplots Extensions to Explore</a></td>
+											</tr>		
 										</tbody>
 									</table>
 								</div>
@@ -97,18 +135,17 @@ Put notes here
 									<ul>
 										<li><a href="../index.html">Homepage</a></li>
 										<li><a href="../rcode/fileTableRcode.html">Miscellaneous R Code</a></li>
-                                        <li><a href="./ml/fileTableML.html">Machine Learning</a></li>
-										<li><a href="./plots/fileTablePlots.html">Plotting, Visualizations & Data Story Telling</a></li>
+                                        <li><a href="../ml/fileTableML.html">Machine Learning</a></li>
+										<li><a href="fileTablePlots.html">Plotting, Visualizations & Data Story Telling</a></li>
 										<li><a href="../stats/fileTableStats.html">Statistics</a></li>
 										<li><a href="../Articles/fileTableArticles.html">Relevant Articles</a></li>
 										<li>
 											<span class="opener">About Me</span>
 											<ul>
-												<li><a href="../About/aboutMe.html">Quick Intro</a></li>
+												<li><a href="../About/aboutMe.html">Quick Intro & CV</a></li>
 												<li><a href="../About/courseList.html">Recent Courses and Certifications</a></li>
 												<li><a href="../About/oldCerts.html">Older Certifications</a></li>
 												<li><a href="../About/animatedSkills.html">My Skills</a></li>
-												<li><a href="#">Resumes and Supporting Documents</a></li>
 											</ul>
 										</li>
 									</ul>
